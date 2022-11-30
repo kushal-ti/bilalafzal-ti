@@ -1,0 +1,9 @@
+tasks:
+  - init: |
+      echo "Hi, testing prebuild"
+  - command: |
+      echo "cmd block"
+
+github:
+  prebuilds:
+    branches: true
