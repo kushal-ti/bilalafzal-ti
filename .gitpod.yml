@@ -1,6 +1,7 @@
 tasks:
   - init: |
-      echo "Hi, testing prebuild"
+      eval $(command gp env -e)
+      echo "Hello ${NAMEE}"
   - command: |
       echo "cmd block"
 
