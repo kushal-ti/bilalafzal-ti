@@ -2,9 +2,11 @@ tasks:
   - init: |
       eval $(command gp env -e)
       echo "Hello ${NAMEE}"
+      echo "I am a prebuild"
   - command: |
       echo "cmd block"
 
 github:
   prebuilds:
+    master: true
     branches: true
