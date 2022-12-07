@@ -6,7 +6,7 @@
             "path": "." // Main repo that you will open in Gitpod (e.g. frontend)
         },
         {
-            "path": "../backend" // Additional repo
+            "path": "../second" // Additional repo
         },
     ]
 }
