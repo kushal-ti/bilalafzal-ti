@@ -2,6 +2,8 @@ additionalRepositories:
   - url: https://github.com/gitpod-io/demo-multi-repo-backend
     # checkoutLocation is relative to /workspaces
     checkoutLocation: backend
+
+workspaceLocation: bilalafzal-ti/main.code-workspace 
     
 tasks:
   - init: |
