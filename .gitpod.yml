@@ -4,24 +4,18 @@ additionalRepositories:
     checkoutLocation: backend
 
 workspaceLocation: bilalafzal-ti/main.code-workspace 
+
+image: node:buster
     
 tasks:
-  - init: |
-      eval $(command gp env -e)
-      echo "Hello ${NAMEE}"
-      echo "I am a prebuild"
-  - command: |
-      echo "cmd block"
-
   - name: backend
     # change working directory as per configured in `checkoutLocation`
     # which is configured above as `/workspaces/backend`
     before: |
       cd ../backend
     init: |
-      echo npm install
-    command: |
-      echo npm run dev
+      echo "Hi from backend! :)"
+      echo node --version
 
 github:
   prebuilds:
