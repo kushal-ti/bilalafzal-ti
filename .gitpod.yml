@@ -1,19 +1,19 @@
-additionalRepositories:
-  - url: https://github.com/bilalafzal-ti/multi-repo-test
-    # checkoutLocation is relative to /workspaces
-    checkoutLocation: multi-repo-test
+# additionalRepositories:
+#   - url: https://github.com/bilalafzal-ti/multi-repo-test
+#     # checkoutLocation is relative to /workspaces
+#     checkoutLocation: multi-repo-test
 
 image: node:buster
 
 workspaceLocation: bilalafzal-ti/main.code-workspace 
     
-# tasks:
-#   - name: multi-repo-test
-#     command: gp repo bilalafzal-ti/multi-repo-test
-
 tasks:
   - name: multi-repo-test
-    command: echo "1. Main configuration file's task running"
+    command: gp repo bilalafzal-ti/multi-repo-test
+
+# tasks:
+#   - name: multi-repo-test
+#     command: echo "1. Main configuration file's task running"
 
 github:
   prebuilds:
