@@ -3,7 +3,8 @@ additionalRepositories:
     # checkoutLocation is relative to /workspaces
     checkoutLocation: multi-repo-test
 
-image: node:buster
+image:
+  file: .gitpod.Dockerfile
 arch: arm
 
 workspaceLocation: bilalafzal-ti/main.code-workspace 
