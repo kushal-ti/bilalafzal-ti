@@ -5,7 +5,6 @@ additionalRepositories:
 
 image:
   file: .gitpod.Dockerfile
-arch: arm
 
 workspaceLocation: bilalafzal-ti/main.code-workspace 
     
