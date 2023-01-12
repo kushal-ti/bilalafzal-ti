@@ -3,7 +3,7 @@ additionalRepositories:
     # checkoutLocation is relative to /workspaces
     checkoutLocation: multi-repo-test
 
-image: gitpod/workspace-full:b50b760ed41e150a3d0a1fb955e238a3110d3cb186f65c0a6a735f762e8229b9
+image: gitpod/workspace-full@sha256:b50b760ed41e150a3d0a1fb955e238a3110d3cb186f65c0a6a735f762e8229b9
 
 workspaceLocation: bilalafzal-ti/main.code-workspace 
     
