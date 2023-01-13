@@ -1,5 +1,6 @@
 image:
   file: .gitpod.Dockerfile
+arch: arm
 
 tasks:
   - name: multi-repo-test
