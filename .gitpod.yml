@@ -1,12 +1,6 @@
 image:
   file: .gitpod.Dockerfile
 
-workspaceLocation: bilalafzal-ti/main.code-workspace 
-    
-# tasks:
-#   - name: multi-repo-test
-#     command: gp repo bilalafzal-ti/multi-repo-test
-
 tasks:
   - name: multi-repo-test
     command: echo "1. Main configuration file's task running"
