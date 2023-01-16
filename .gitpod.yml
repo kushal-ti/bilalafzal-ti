@@ -1,4 +1,4 @@
-image: devfactory/workspace-full:latest-arm64
+image: devfactory/workspace-full:latest-amd64
 arch: arm
 
 tasks:
