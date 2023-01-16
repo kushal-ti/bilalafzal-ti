@@ -1,4 +1,4 @@
-image: devfactory/workspace-full@sha256:78a18718ef2585b6dd2cbea45c5d12f95fb3af6e3f983668e6ea39d847b27284
+image: devfactory/workspace-full:latest-arm64
 arch: arm
 
 tasks:
