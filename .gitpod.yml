@@ -1,5 +1,5 @@
 image: devfactory/workspace-full:latest-amd64
-arch: arm
+arch: x86
 
 tasks:
   - name: multi-repo-test
