@@ -1,8 +1,8 @@
 image: devfactory/workspace-full:latest
-arch: arm
+arch: x86
 
 tasks:
   - name: multi-repo-test
-    command: echo "1. Main configuration file's task running 7"
+    command: echo "1. Main configuration file's task running 8"
 
 
