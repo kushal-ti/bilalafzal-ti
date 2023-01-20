@@ -1,9 +1,9 @@
 image: devfactory/workspace-full:latest
 # image: ubuntu:latest
-arch: arm
+arch: x86
 
 tasks:
   - name: multi-repo-test
-    command: echo "1. Main configuration file's task running 19"
+    command: echo "1. Main configuration file's task running 20"
 
 
