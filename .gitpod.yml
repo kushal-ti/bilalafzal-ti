@@ -1,7 +1,7 @@
 
 image:
   file: .gitpod.Dockerfile
-arch: arm
+arch: x86
 
     
 # tasks:
