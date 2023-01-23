@@ -1,5 +1,6 @@
 
-image: devfactory/workspace-full:test
+image:
+  file: .gitpod.Dockerfile
 arch: arm
 
     
